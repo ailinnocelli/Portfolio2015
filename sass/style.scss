@@ -1,5 +1,6 @@
 @import 'variables';
 .contenedor-pagina{
+<<<<<<< HEAD
 width: 100%;
 font-family: 'PT Sans', sans-serif;
 color:$color-de-fuente-general;
@@ -16,11 +17,30 @@ width: 100%;
 background-image: url("../img/degradado-sombra-grande.jpg");
 background-repeat: no-repeat;
 background-size: cover;*/
+=======
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	color:$color-de-fuente-general;
+
+}
+.contenedor-central{
+	width: 90%;
+	margin:0 auto;
+	
+}
+.header-uno{
+	width: 100%;
+	/*height: 560px;
+	background-image: url("../img/degradado-sombra-grande.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 	img{
 		width: 100%;
 
 	}
 }
+<<<<<<< HEAD
 .navbar #bs-example-navbar-collapse-1 > ul > li > a {
 	@media(max-width: 768px){
 		color:#424242;
@@ -67,6 +87,22 @@ font-size: 20px;
 font-family: 'Playball', cursive;'Kaushan Script', cursive;
 
 }*/
+=======
+.navbar{
+	width: 100%;
+	height: 100px;
+	background-color:$color-de-navbar;
+	margin-bottom: 10px;
+	background-image: none;
+}
+.my-resume{
+	float:left;
+	color:$color-de-fuente-general;
+	font-size: 20px;
+	font-family: 'Kaushan Script', cursive;
+
+}
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 
 .float{
 	float: right;
@@ -83,7 +119,11 @@ font-family: 'Playball', cursive;'Kaushan Script', cursive;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 15px;
+<<<<<<< HEAD
 	margin-bottom:20px;
+=======
+	margin-bottom:10px;
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 	@media (max-width: 400px){
 		font-size:35px;
 		padding-top: 25px;
@@ -95,6 +135,7 @@ font-family: 'Playball', cursive;'Kaushan Script', cursive;
 		margin-top: 70px;
 	}
 }
+<<<<<<< HEAD
 .flex-contenedor{
 	width:95%;
 	display:flex;
@@ -147,6 +188,36 @@ img{
 	}
 }
 }*/
+=======
+.container{
+	display:flex;
+}
+.sector-imagen{
+	flex:1;
+}
+.sector-about-me{
+	flex:1;
+}
+.foto-ailin {
+	text-align:center;
+	@media (min-width: 900px){
+		display: inline-block;
+		}
+	img{
+		width:100%;
+		max-width: 455px;
+		/*background-image: url("../img/ailin-uno.jpg");
+		height: 536px;
+		background-repeat: no-repeat;
+		background-size: cover;*/
+		border-radius: 200px;
+		@media (min-width: 900px){
+			margin-bottom:30px;
+			
+		}
+	}
+}
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 .about-me{
 	margin-top: 30px;
 	@media (min-width: 900px){
@@ -158,6 +229,7 @@ img{
 	@media(min-width:1100px){
 		width: 52%;
 	}
+<<<<<<< HEAD
 	@media(min-width:300px){
 		margin:0;
 	}
@@ -175,6 +247,8 @@ img{
 	@media(max-width:400px){
 		font-size:35px;
 	}
+=======
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 }
 .nota-con-margen{
 	width: 90%;
@@ -184,6 +258,7 @@ img{
 	background-color: $color-segundo-navbar-convinacion;
 	margin-top:10px;
 	font-size: 30px;
+<<<<<<< HEAD
 	padding: 10px 10px;
 	@media (min-width:1035px){
 		font-size: 22px;
@@ -200,13 +275,26 @@ img{
 	}
 	@media (max-width:570px){
 		padding-top:18px;
+=======
+	padding-top: 10px;
+	@media (max-width: 400px){
+		font-size:20px;
+		
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 	}
 }
 .datos-personales{
 	font-size: 20px;
+<<<<<<< HEAD
 	line-height: 35px;
 	text-align: center;
 	padding:20px;
+=======
+	line-height: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 30px;
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 	color:$color-de-navbar;
 	margin: 0 10px;
 }
@@ -252,9 +340,12 @@ img{
 		margin-left:10px;
 		text-align: center
 	}
+<<<<<<< HEAD
 	span:hover{
 		color:$color-de-titulos;
 	}
+=======
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 	div{
 		display: inline;	
 	}
@@ -269,6 +360,7 @@ img{
 	margin-bottom:30px;
 }
 .contenedor-contacto{
+<<<<<<< HEAD
 	margin-bottom: 40px;
 }
 
@@ -318,4 +410,7 @@ img{
 		width: 100%;
 		height: 150px;
 	}
+=======
+	
+>>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 }
