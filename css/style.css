@@ -5,12 +5,22 @@
 
 .contenedor-central {
   width: 90%;
-<<<<<<< HEAD
   margin: 0 auto;
   text-align: center; }
-=======
+
+.header-uno {
+  width: 100%;
+  /*height: 560px;
+  background-image: url("../img/degradado-sombra-grande.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff; }
+
+.contenedor-central {
+  width: 90%;
   margin: 0 auto; }
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 
 .header-uno {
   width: 100%;
@@ -21,7 +31,6 @@
   .header-uno img {
     width: 100%; }
 
-<<<<<<< HEAD
 @media (max-width: 768px) {
   .navbar #bs-example-navbar-collapse-1 > ul > li > a {
     color: #424242;
@@ -38,6 +47,9 @@
   background-image: none; }
   .navbar #bs-example-navbar-collapse-1 > ul > li > a {
     color: #ffffff; }
+  .navbar #bs-example-navbar-collapse-1 > ul > li > a:hover {
+    color: #FC6F5C;
+    cursor: pointer; }
   .navbar .navbar-brand {
     color: #ffffff;
     font-family: 'Playball', cursive;
@@ -46,28 +58,14 @@
 .navbar-default .navbar-brand:hover {
   color: #ffffff; }
 
-#lista-navbar ul li a {
-  color: #ffffff; }
-
-#lista-navbar ul li a:hover {
-  color: #FC6F5C;
-  cursor: pointer; }
-
-/*.seccion-nav{
-	position:fixed;
-	z-index:15;
-}*/
 /*.my-resume{
 float:left;
 color:$color-de-fuente-general;
 font-size: 20px;
 font-family: 'Playball', cursive;'Kaushan Script', cursive;
-
 }*/
-=======
 .navbar {
   width: 100%;
-  height: 100px;
   background-color: #424242;
   margin-bottom: 10px;
   background-image: none; }
@@ -78,7 +76,6 @@ font-family: 'Playball', cursive;'Kaushan Script', cursive;
   font-size: 20px;
   font-family: 'Kaushan Script', cursive; }
 
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 .float {
   float: right; }
 
@@ -94,11 +91,8 @@ font-family: 'Playball', cursive;'Kaushan Script', cursive;
   font-weight: bold;
   text-align: center;
   padding-top: 15px;
-<<<<<<< HEAD
-  margin-bottom: 20px; }
-=======
+  margin-bottom: 20px;
   margin-bottom: 10px; }
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
   @media (max-width: 400px) {
     .titulo-cartel {
       font-size: 35px;
@@ -108,7 +102,6 @@ font-family: 'Playball', cursive;'Kaushan Script', cursive;
   .sobre-mi {
     margin-top: 70px; } }
 
-<<<<<<< HEAD
 .flex-contenedor {
   width: 95%;
   display: flex;
@@ -157,7 +150,6 @@ img{
 	}
 }
 }*/
-=======
 .container {
   display: flex; }
 
@@ -184,7 +176,6 @@ img{
       .foto-ailin img {
         margin-bottom: 30px; } }
 
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 .about-me {
   margin-top: 30px; }
   @media (min-width: 900px) {
@@ -196,7 +187,6 @@ img{
   @media (min-width: 1100px) {
     .about-me {
       width: 52%; } }
-<<<<<<< HEAD
   @media (min-width: 300px) {
     .about-me {
       margin: 0; } }
@@ -213,8 +203,6 @@ img{
 @media (max-width: 400px) {
   #titulo-about-me {
     font-size: 35px; } }
-=======
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 
 .nota-con-margen {
   width: 90%;
@@ -224,45 +212,52 @@ img{
   background-color: #5C5C5C;
   margin-top: 10px;
   font-size: 30px;
-<<<<<<< HEAD
   padding: 10px 10px; }
-  @media (min-width: 1035px) {
+  @media (min-width: 1300px) {
     .titulo-nota-con-margen {
-      font-size: 22px; } }
+      padding-top: 20px; } }
+  @media (min-width: 1230px) {
+    .titulo-nota-con-margen {
+      font-size: 22px;
+      padding-top: 25px; } }
   @media (min-width: 1100px) {
     .titulo-nota-con-margen {
-      font-size: 24px; } }
+      font-size: 24px;
+      padding-top: 28px; } }
+  @media (min-width: 1035px) {
+    .titulo-nota-con-margen {
+      font-size: 22px;
+      padding-top: 30px; } }
   @media (max-width: 865px) {
     .titulo-nota-con-margen {
-      font-size: 24px; } }
+      font-size: 24px;
+      padding-top: 15px; } }
   @media (max-width: 735px) {
     .titulo-nota-con-margen {
       font-size: 20px;
       padding-top: 20px; } }
   @media (max-width: 570px) {
     .titulo-nota-con-margen {
-      padding-top: 18px; } }
+      padding-top: 20px; } }
+  @media (max-width: 400px) {
+    .titulo-nota-con-margen {
+      font-size: 20px;
+      padding-top: 10px; } }
 
 .datos-personales {
   font-size: 20px;
   line-height: 35px;
   text-align: center;
   padding: 20px;
-=======
-  padding-top: 10px; }
-  @media (max-width: 400px) {
-    .titulo-nota-con-margen {
-      font-size: 20px; } }
-
-.datos-personales {
-  font-size: 20px;
   line-height: 30px;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 30px;
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
   color: #424242;
   margin: 0 10px; }
+  @media (max-width: 699px) {
+    .datos-personales .segundo-parrafo {
+      display: none; } }
 
 .skills span {
   font-size: 30px;
@@ -300,11 +295,8 @@ img{
     color: #5C5C5C;
     margin-left: 10px;
     text-align: center; }
-<<<<<<< HEAD
   .contacto span:hover {
     color: #FC6F5C; }
-=======
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
   .contacto div {
     display: inline; }
   .contacto p {
@@ -316,7 +308,6 @@ img{
   margin-top: 20px;
   margin-bottom: 30px; }
 
-<<<<<<< HEAD
 .contenedor-contacto {
   margin-bottom: 40px; }
 
@@ -367,6 +358,4 @@ img{
       width: 100%;
       height: 150px; } }
 
-=======
->>>>>>> 7d90fa1866fa10acdc8a27e9b5e777de9de3fc4e
 /*# sourceMappingURL=style.css.map */
